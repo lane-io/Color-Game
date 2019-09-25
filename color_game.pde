@@ -8,12 +8,12 @@ boolean qkey, rkey;
 
 void setup() {
   size (800, 600);
-    mode = 0;
+  mode = 0;
 }
 
 void draw() {
-  
-    if (mode == 0) {
+
+  if (mode == 0) {
     intro();
   } else if (mode == 1) {
     game();
